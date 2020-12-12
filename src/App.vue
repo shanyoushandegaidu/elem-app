@@ -1,0 +1,28 @@
+<template>
+  <div id="app">
+    <router-view></router-view>
+  </div>
+</template>
+
+<style>
+html,body,#app{
+  width: 100%;
+  height: 100%;
+  background-color: #f5f5f5;
+}
+  /*超出部分*/
+  .ellipsis{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  header{
+    background-color: #3190e8;
+    position: fixed;
+    z-index: 100;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 1.95rem;
+  }
+</style>
